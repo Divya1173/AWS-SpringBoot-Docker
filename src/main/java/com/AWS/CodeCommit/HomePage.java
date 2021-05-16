@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomePage {
-    @GetMapping("/welcome")
+    @GetMapping("/")
 	public String welcome() {
     	return "Welcome to My Demo Spring Boot project!";
     }
